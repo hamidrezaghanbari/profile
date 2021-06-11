@@ -23,13 +23,13 @@ i used two technology nextjs and styledcomponents for make design responsive and
 
 *list of my ui challenge pojects url*
 
- 1. irtuautomation.vercel.app (this is bussinuss porject for selling RTU[a plc like for receiving data from SCADA system])
- 2. https://crowdfunding-product.vercel.app/
- 3. https://html-practice-5.vercel.app/
- 4. https://html-practice-4.vercel.app/
- 5. https://html-practice-1.vercel.app/
- 6. https://html-practice-3.vercel.app/
- 7. https://html-practice-2.vercel.app/
+ 1. [irtuautomation app](irtuautomation.vercel.app) (this is bussinuss porject for selling RTU[it is bord for receiving data from SCADA system])
+ 2. [crowdfunding product app](https://crowdfunding-product.vercel.app/)
+ 3. [card for join community app](https://html-practice-5.vercel.app/)
+ 4. [huddle page page](https://html-practice-4.vercel.app/)
+ 5. [resume card page](https://html-practice-1.vercel.app/)
+ 6. [flexbox cards](https://html-practice-3.vercel.app/)
+ 7. [user exprience page](https://html-practice-2.vercel.app/)
 
 NextJS is a **framework for ReactJS**.
 
@@ -70,7 +70,7 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 - Much More
 
  ## styledcomponents
-
+	
 **StyledComponents** is react library that solve some problem for styling the pages
 	
 - No ClassName need
@@ -82,3 +82,4 @@ In this article, we'll dive into the core concepts and features NextJS has to of
 - can use theme for application
 
 - Much More
+ 
