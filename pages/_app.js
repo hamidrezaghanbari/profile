@@ -16,8 +16,10 @@ function MyApp({ Component, pageProps }) {
       <meta name="author" content="Hamidreza ghanbari" />
 
       <link rel="manifest" href="/manifest.json" />
-      <meta name="theme-color" content="#006effc2" />
+      <meta name="theme-color" content="#006eff" />
       <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+      <link href="/favicon.ico" rel="apple-touch-icon" />
+
     </Head>
     <Component {...pageProps} />
   </Layout>

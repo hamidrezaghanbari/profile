@@ -1,8 +1,8 @@
 {
     "short_name": "Hamid ghanbari",
     "name": "Hamidreza ghanbari Profile",
-    "theme_color": "#006effc2",
-    "background_color": "#000000",
+    "theme_color": "#006eff",
+    "background_color": "#006eff",
     "display": "standalone",
     "scope": "/",
     "start_url": "./",
@@ -10,7 +10,8 @@
         {
             "src": "favicon.ico",
             "type": "image/x-icon",
-            "sizes": "48x48 32x32 24x24 12x12"
+            "sizes": "48x48 32x32 24x24 12x12 512x512",
+            "purpose": "any maskable"
         }
     ]
 }
