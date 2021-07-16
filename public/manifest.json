@@ -10,8 +10,13 @@
         {
             "src": "favicon.ico",
             "type": "image/x-icon",
-            "sizes": "48x48 32x32 24x24 12x12 512x512",
+            "sizes": "48x48 32x32 24x24 12x12",
             "purpose": "any maskable"
+        },
+        {
+            "src": "512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
         }
     ]
 }
