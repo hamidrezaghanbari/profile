@@ -1,9 +1,19 @@
 {
   "workbench.colorCustomizations": {
-    "titleBar.activeForeground": "#fff",
-    "titleBar.inactiveForeground": "#fff",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveForeground": "#e7e7e799",
     "titleBar.activeBackground": "#006effc2",
-    "titleBar.inactiveBackground": "#fff"
+    "titleBar.inactiveBackground": "#006eff99",
+    "activityBar.activeBackground": "#338bffc2",
+    "activityBar.activeBorder": "#ffbfdb",
+    "activityBar.background": "#338bffc2",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#ffbfdb",
+    "activityBarBadge.foreground": "#15202b",
+    "statusBar.background": "#006effc2",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#338bffc2"
   },
   "editor.formatOnSave": true,
   "[javascript]": {
@@ -16,5 +26,9 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "prettier.disableLanguages": ["javascript", "javascriptreact"]
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "peacock.color": "#006effc2"
 }
