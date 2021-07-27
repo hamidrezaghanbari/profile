@@ -18,11 +18,13 @@ const PostItem = ({ post: { title, slug, date, image, excerpt } }) => {
             <Link href={postLink}>
                 <a>
                     <div className={classes.image}>
-                        <Image
+                        <div className="skeleton-box skeleton-img">
+                        </div>
+                        {/* <Image
                             src={imagePath}
                             alt={title}
                             width={300} height={200}
-                            layout="responsive" />
+                            layout="responsive" /> */}
                     </div>
 
                     <div className={classes.content}>

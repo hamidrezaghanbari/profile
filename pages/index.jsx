@@ -1,26 +1,115 @@
-import Hero from './../components/hero/hero'
-import FeaturedPosts from './../components/featured-posts/featured-posts'
-import { getFeaturedPosts } from '../lib/posts.util'
+// import { getFeaturedPosts } from '../lib/posts.util'
+import { useTranslation } from 'next-i18next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { BodyDesc, BodySecWrapper, Breaker, Skill, Skills, Title } from "../components/widgets/forall/body-sec.widgets"
 
-const IndexPage = ({ featuredPosts }) => {
+const IndexPage = () => {
+  const { t } = useTranslation()
+
+ 
+
   return (
-    <>
-      <Hero />
-      <FeaturedPosts posts={featuredPosts } />
-    </>
+    <BodySecWrapper>
+      <Title>
+        <h1>{t('index_title_1')}</h1>
+        <Breaker />
+      </Title>
+      <BodyDesc>
+        <p>
+          {t('index_body_1')}
+        </p>
+      </BodyDesc>
+      <Title>
+        <h1>{t('index_title_2')}</h1>
+        <Breaker />
+      </Title>
+      <BodyDesc>
+        <div>
+          {/* TODO for separate with ,  */}
+          <ul>
+            
+            {
+              t('index_body_2').split(',').map((experience, index) => {
+                return <li key={index}>{experience}</li>
+              })
+            }
+
+
+          </ul>
+          {/* {t('index_body_2')} */}
+        </div>
+      </BodyDesc>
+      <Title>
+        <h1>{t('index_title_3')}</h1>
+        <Breaker />
+      </Title>
+      <Skills>
+
+        {
+          t('index_body_3').split(',').map((skill, index) => {
+            return <Skill key={index}>{skill}</Skill>
+          })
+        }    
+
+        {/* <Skill>Figma</Skill>
+        <Skill>Nextjs</Skill>
+        <Skill>Pwa</Skill>
+        <Skill>styled components</Skill>
+        <Skill>ssr</Skill>
+        <Skill>sass</Skill>
+        <Skill>hooks</Skill>
+        <Skill>git</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill>
+        <Skill>git flow</Skill> */}
+      </Skills>
+    </BodySecWrapper>
   )
 }
 
-export const getStaticProps = async (ctx) => {
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['common'])
+  },
+})
 
-  const featuredPosts = getFeaturedPosts()
 
-  return {
-    props: {
-      featuredPosts
-    },
-    revalidate: 86400 // 86400 seconds is one day for refresh this and revalidate to get featured posts again
-  }
-}
+
+
+// export const getStaticProps = async (ctx) => {
+
+//   const featuredPosts = getFeaturedPosts()
+
+//   return {
+//     props: {
+//       featuredPosts
+//     },
+//     revalidate: 86400 // 86400 seconds is one day for refresh this and revalidate to get featured posts again
+//   }
+// }
 
 export default IndexPage
