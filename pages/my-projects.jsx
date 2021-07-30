@@ -5,7 +5,7 @@ import { BodySecWrapper, Breaker, Cards, Title } from "../components/widgets/for
 import Data from '../public/data/projects.json'
 
 const MyProjects = () => {
-    const {t} = useTranslation()
+    const { t } = useTranslation('common')
 
     return (
         <BodySecWrapper>

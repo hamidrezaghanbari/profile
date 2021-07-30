@@ -9,6 +9,7 @@ const IndexPage = () => {
  
 
   return (
+ 
     <BodySecWrapper>
       <Title>
         <h1>{t('index_title_1')}</h1>
@@ -25,7 +26,6 @@ const IndexPage = () => {
       </Title>
       <BodyDesc>
         <div>
-          {/* TODO for separate with ,  */}
           <ul>
             
             {
@@ -36,7 +36,6 @@ const IndexPage = () => {
 
 
           </ul>
-          {/* {t('index_body_2')} */}
         </div>
       </BodyDesc>
       <Title>
@@ -51,41 +50,6 @@ const IndexPage = () => {
           })
         }    
 
-        {/* <Skill>Figma</Skill>
-        <Skill>Nextjs</Skill>
-        <Skill>Pwa</Skill>
-        <Skill>styled components</Skill>
-        <Skill>ssr</Skill>
-        <Skill>sass</Skill>
-        <Skill>hooks</Skill>
-        <Skill>git</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill>
-        <Skill>git flow</Skill> */}
       </Skills>
     </BodySecWrapper>
   )

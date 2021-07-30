@@ -62,7 +62,10 @@ function MyApp({ Component, pageProps }) {
 
         </Head>
 
+
         <PageComponent Component={Component} pageProps={pageProps} />
+        
+
       </PersistGate>
     </Provider>
   </StrictMode>

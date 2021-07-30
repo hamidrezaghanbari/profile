@@ -1,4 +1,5 @@
 {
+    "lang": "en",
     "name": "Hamidreza ghanbari",
 
     "menu_1": "About me",
@@ -12,7 +13,7 @@
     "index_title_3": "My Skills",
     "index_body_3": "nextjs,figma,git,git flow,styled-component,ssr,sass,pwa,hooks,i18next,sass",
 
-    "my_project": "My projects",
+    "my_projects": "My projects",
     "contact_me": "Contact me",
 
 

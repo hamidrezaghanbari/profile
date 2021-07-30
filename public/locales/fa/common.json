@@ -1,4 +1,5 @@
 {
+    "lang": "fa",
     "name": "حمیدرضاقنبری",
 
     "menu_1": "درباره من",
@@ -12,7 +13,7 @@
     "index_title_3": "مهارت های من",
     "index_body_3": "nextjs,figma,git,git flow,styled-component,ssr,sass,pwa,hooks,i18next,sass",
 
-    "my_project": "پروژه های من",
+    "my_projects": "پروژه های من",
     "contact_me": "تماس با من",
 
     "form_1": "نام کامل",
