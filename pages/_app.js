@@ -9,7 +9,6 @@ import Loader from '../components/loader/loader'
 const PageComponent = dynamic(() => import('./page.component'),
   { loading: () => <Loader /> })
 
-import { appWithTranslation } from 'next-i18next'
 import NProgress from 'nprogress'
 import Router from 'next/router'
 
@@ -74,4 +73,4 @@ function MyApp({ Component, pageProps }) {
 
 
 
-export default appWithTranslation(MyApp)
+export default MyApp

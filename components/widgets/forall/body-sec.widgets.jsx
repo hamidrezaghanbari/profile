@@ -5,8 +5,10 @@ export const BodySecWrapper = styled.div`
    height: 100%;
    padding: 30px 25px;
    position: absolute;
+   
    right: ${({theme}) => theme.name === 'en' ? '0': '30%'};
-   transition: right 0.8s ease; 
+   animation: ${({ theme }) => theme.name === 'en' ? 'toEnBody 1s' : 'toFaBody 1s'};
+
    z-index: 0; 
    overflow-y: auto;
 

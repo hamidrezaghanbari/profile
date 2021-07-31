@@ -5,6 +5,7 @@ import { GlobalStyles } from '../styles/global-styles'
 import { ThemeProvider } from 'styled-components'
 import { enTheme, faTheme } from '../lib/theme/theme'
 import { useTranslation } from 'next-i18next'
+import { appWithTranslation } from 'next-i18next'
 
 const PageComponent = ({ Component, pageProps }) => {
     const { t } = useTranslation('common')
@@ -32,4 +33,4 @@ const PageComponent = ({ Component, pageProps }) => {
 }
 
 
-export default PageComponent
+export default appWithTranslation(PageComponent)

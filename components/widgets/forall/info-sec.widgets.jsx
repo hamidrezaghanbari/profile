@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const InfoSecWrapper = styled.div`
-   box-shadow: ${({theme}) => theme.name === 'en' ? 'rgba(99, 99, 99, 0.2) 2px 0px 8px 0px' : 'rgba(99, 99, 99, 0.2) -2px 0px 8px 0px'};
+   box-shadow: ${({ theme }) => theme.name === 'en' ? 'rgba(99, 99, 99, 0.2) 2px 0px 8px 0px' : 'rgba(99, 99, 99, 0.2) -2px 0px 8px 0px'};
    display: flex; 
    flex-direction: column;
    align-items: center;
@@ -9,9 +9,12 @@ export const InfoSecWrapper = styled.div`
    padding-top: 20px;
 
    position: absolute;
-   left: ${({theme}) => theme.name === 'en' ? '0': '70%'};
-   border-radius: ${({theme}) => theme.name === 'en' ? '5px 0 0 5px': '0 5px 5px 0'};
-   transition: left 0.8s ease; 
+   
+   left: ${({ theme }) => theme.name === 'en' ? '0' : '70%'};
+   animation: ${({ theme }) => theme.name === 'en' ? 'toEnInfo 1s' : 'toFaInfo 1s'};
+
+
+   border-radius: ${({ theme }) => theme.name === 'en' ? '5px 0 0 5px' : '0 5px 5px 0'};
    z-index: 5;
    background-color: white;
    
@@ -74,13 +77,13 @@ export const NavItem = styled.a`
    cursor: pointer;
 
 
-   background-color: ${({active}) => active ? 'var(--primary-color)' : 'white'};
+   background-color: ${({ active }) => active ? 'var(--primary-color)' : 'white'};
    border: none;
    border-radius: 5px;
-   cursor: ${({active}) => active ? '' : 'pointer'};
+   cursor: ${({ active }) => active ? '' : 'pointer'};
 
    &:hover, &:focus {
-      border: ${({active}) => active ? '' : '2px solid var(--primary-color)'};
+      border: ${({ active }) => active ? '' : '2px solid var(--primary-color)'};
    }
 `
 

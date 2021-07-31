@@ -19,15 +19,15 @@ export const MainSec = styled.div`
 
    // ** style for desktop
    height: 85vh;
-   /* height: 1000px; */
    width: 70vw;
 `
 
 export const ChangeLang = styled.div`
    position: absolute;
    top: 30px;
-   right: ${({lang}) => lang === 'en' ? '3%' : '87%'};
-   transition: right 0.8s ease; 
+   animation: ${({ lang }) => lang === 'en' ? 'toEnToggler 1s' : 'toFaToggler 1s'};
+   right: ${({ lang }) => lang === 'en' ? '3%' : '87%'};
+  
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -46,13 +46,13 @@ export const Lang = styled.div`
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: ${({active}) => active ? 'var(--secondary-color)' : ''};
-   color: ${({active}) => active ? 'var(--primary-color)' : 'var(--secondary-color)'};
+   background-color: ${({ active }) => active ? 'var(--secondary-color)' : ''};
+   color: ${({ active }) => active ? 'var(--primary-color)' : 'var(--secondary-color)'};
    border-radius: 5px;
    z-index: 10;
    margin: 0 5px;
 
-   font-family: ${({ font }) => font === 'en' ? 'raleway_regular': 'vazir_regular'};
+   font-family: ${({ font }) => font === 'en' ? 'raleway_regular' : 'vazir_regular'};
 
    &:hover {
       cursor: pointer;
