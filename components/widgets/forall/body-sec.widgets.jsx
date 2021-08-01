@@ -67,6 +67,11 @@ export const BodyDesc = styled.div`
       font-family: ${({ theme }) => `${theme.font}_regular`};
    }
    
+   & > div> ul > li {
+      margin: 10px 0;
+      font-family: ${({ theme }) => `${theme.font}_regular`};
+   }
+   
    text-align: ${({ theme }) => `${theme.textAlign}`};
    margin-bottom: 20px;
 `

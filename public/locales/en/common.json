@@ -7,11 +7,11 @@
     "menu_3": "Contact me",
 
     "index_title_1": "About me",
-    "index_body_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst sagittis semper orci suspendisse. Mattis curabitur magna consectetur pretium luctus dictumst. Condimentum ipsum, semper ut at donec integer. Interdum consequat, sapien ultricies arcu, et.",
+    "index_body_1": "I am frontend developer(react, nextjs) and designer(figma) with experience building digital products with different technologies. Currently my Stack of technologies has a JavaScript(react and next especially) as main language, I like to develop solutions that meet high quality metrics in terms of performance, accessibility and good practices. I am looking for job opportunities to grow professionally with an innovation team to provide solutions to different problems.  I studied computer engineering at the State University of Qazvin (IKIU), where I participated in several academic events such as study groups and events such as Disel Team.",
     "index_title_2": "My Experience",
-    "index_body_2": "1year at pbscontrol.com,1 year at folan ja",
+    "index_body_2": "4Month at Disel Team, 6Month at pbscontrol.com,Now at utopiops.com",
     "index_title_3": "My Skills",
-    "index_body_3": "nextjs,figma,git,git flow,styled-component,ssr,sass,pwa,hooks,i18next,sass",
+    "index_body_3": "react,nextjs,ui,figma,git,git flow,Rest Api,Tailwind css, Bootstrap, javascript Es6 and higher, html, css, styled-component,ssr,sass,pwa,hooks,i18next,sass",
 
     "my_projects": "My projects",
     "contact_me": "Contact me",

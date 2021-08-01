@@ -30,7 +30,7 @@ const IndexPage = () => {
             
             {
               t('index_body_2').split(',').map((experience, index) => {
-                return <li key={index}>{experience}</li>
+                return <li key={index}><b>{experience}</b></li>
               })
             }
 
