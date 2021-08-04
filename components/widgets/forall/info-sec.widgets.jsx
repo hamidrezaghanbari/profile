@@ -22,6 +22,13 @@ export const InfoSecWrapper = styled.div`
    width: 30%;
    height: 100%;
    
+
+   @media only screen and (max-width: 720px) {
+      width: 100%;
+      height: 50vh;
+      left: 0;
+      animation: none;
+   }
 `
 
 
@@ -40,6 +47,11 @@ export const ImageBack = styled.div`
    &  img {
        border-radius: 5px;
    }
+
+   @media only screen and (max-width: 720px) {
+      width: 140px;
+      height: 140px;
+   }
 `
 
 export const Name = styled.h1`
@@ -48,10 +60,14 @@ export const Name = styled.h1`
    padding: 25px 0 20px 0;
    text-align: center;
    font-family: ${({ theme }) => `${theme.font}_medium`};
-   `
+
+   @media only screen and (max-width: 720px) {
+      font-size: 22px;
+   }
+`
 
 export const Job = styled.h2`
-   font-size: 18px;
+   font-size: 16px;
    font-family: ${({ theme }) => `${theme.font}_regular`};
    
    padding-bottom: 10px;
@@ -64,6 +80,12 @@ export const NavSec = styled.div`
    width: 100%;
    align-items: center;
 
+   @media only screen and (max-width: 720px) {
+      flex-direction: row;
+      margin-bottom: 15px;
+      box-shadow: rgba(99, 99, 99, 0.2) 10px 0px 2px 0px;
+      justify-content: space-around;
+   }
 `
 
 export const NavItem = styled.a`
@@ -84,14 +106,23 @@ export const NavItem = styled.a`
 
    &:hover, &:focus {
       border: ${({ active }) => active ? '' : '2px solid var(--primary-color)'};
+      font-family: ${({ theme }) => `${theme.font}_medium`};
    }
+
+   @media only screen and (max-width: 720px) {
+      width: 30%;
+   }   
 `
 
 export const LineBreak = styled.div`
    height: 0.8px;
    width: 55%;
-   margin: 8px 0;
+   margin: 4px 0;
    background-color: var(--secondary-color);
+
+   @media only screen and (max-width: 720px) {
+      display: none;
+   }   
 `
 
 export const SocialSec = styled.div`
@@ -99,11 +130,16 @@ export const SocialSec = styled.div`
    padding: 0 10px;
    display: flex;
    flex-direction: column;
+
+   @media only screen and (max-width: 720px) {
+      display: none;
+   }
 `
 
 export const SocialItem = styled.div`
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    padding: 5px 0;
 
    & > span, a {
@@ -114,6 +150,10 @@ export const SocialItem = styled.div`
       
       &:hover {
          font-family: ${({ theme }) => `${theme.font}_medium`};
+      }
+
+      @media only screen and (max-width: 900px) {
+         font-size: 12px;
       }
    }
 `

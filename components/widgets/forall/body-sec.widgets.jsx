@@ -36,6 +36,12 @@ export const BodySecWrapper = styled.div`
       cursor:pointer;
    }
 
+   @media only screen and (max-width: 720px) {
+      width: 100%;
+      margin-top: 50vh;
+      animation: none;
+      right: 0;
+   }
 `
 
 export const Title = styled.div`

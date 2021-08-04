@@ -9,6 +9,10 @@ export const CardWrapper = styled.div`
    margin-bottom: 25px;
    border: 1px solid var(--primary-darker-color); 
    position: relative;
+
+   @media only screen and (max-width: 720px) {
+      width: 100%;
+   }
 `
 
 export const CardImg = styled.div`
@@ -60,6 +64,7 @@ export const CardFeatures = styled.div`
    display: flex;
    align-items: center;
    flex-wrap: wrap;
+   direction: ltr;
 
    & > span {
     font-family: ${({ theme }) => `${theme.font}_medium`};
@@ -72,7 +77,7 @@ export const Feature = styled.div`
    border: 2px solid var(--primary-color);
    padding: 4px;
    border-radius: 5px;
-   margin-right: 5px;
+   margin: 0 5px 5px 0;
    cursor: pointer;
 
   

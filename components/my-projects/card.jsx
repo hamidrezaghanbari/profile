@@ -47,10 +47,12 @@ const Card = ({ src, alt, name, date_fa, date_en, desc_fa, desc_en, features, li
                         links.map(({ name_en, name_fa, withIcon, isActive, href }) => {
                             return (
                                 <Btn active={isActive}>
-                                    {
-                                        router.locale === 'en' ? <span>{name_en}</span> : <span>{name_fa}</span>
-                                    }
-                                    {withIcon && <Image src="/images/link.svg" alt={`link to ${name}`} width={15} height={15} />}
+                                    <a target="_blank" href={href}>
+                                        {
+                                            router.locale === 'en' ? <span>{name_en}</span> : <span>{name_fa}</span>
+                                        }
+                                        {withIcon && <Image src="/images/link.svg" alt={`link to ${name}`} width={15} height={15} />}
+                                    </a>
                                 </Btn>
                             )
                         })

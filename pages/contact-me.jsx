@@ -7,7 +7,7 @@ import { BtnHolder, Err, Form, FormButton, Msg } from "../components/widgets/con
 import { BodySecWrapper, Breaker, Title } from "../components/widgets/forall/body-sec.widgets"
 
 const ContactMe = () => {
-    const { t } = useTranslation()
+    const { t } = useTranslation('common')
 
     const { register, handleSubmit, formState: { errors } } = useForm()
     const [isLoading, setIsLoading] = useState(false)
@@ -38,17 +38,26 @@ const ContactMe = () => {
 
     }
 
-    // console.log(errors);
-
     const registerFullName = register("FullName", {
-        required: {
-            value: true,
-            message: 'نام شما باید ثبت شود'
-        }, minLength: 2, maxLength: 80
+        required: "name is required", minLength: {
+            value: 3,
+            message: 'name must be at least 3 character'
+        }, maxLength: 80
     })
 
-    const registerEmailOrPhone = register("EmailOrPhone", { required: true, minLength: 2, maxLength: 80 })
-    const registerMessage = register("Message", { required: true, minLength: 2, maxLength: 80 })
+    const registerEmailOrPhone = register("EmailOrPhone", {
+        required: "email or phone is required", minLength: {
+            value: 4,
+            message: 'email or phone must be at least 3 character'
+        }, maxLength: 80
+    })
+
+    const registerMessage = register("Message", {
+        required: {
+            value: true,
+            message: 'message is required'
+        }, minLength: 2, maxLength: 80
+    })
 
 
 
@@ -64,17 +73,17 @@ const ContactMe = () => {
                 <FormItem
                     register={registerFullName}
                     label={t('form_1')} type="input" icon="/images/name.svg" />
-                {errors.FullName && <Err>🧨{errors.FullName.message}</Err>}
+                {errors.FullName && (t('lang') === 'en' ? <Err>🧨{errors.FullName.message}</Err> : <Err>🧨حداقل طول نام 3 کاراکتر است</Err>)}
 
                 <FormItem
                     register={registerEmailOrPhone}
                     label={t('form_2')} type="input" icon="/images/email-phone.svg" />
-                {errors.EmailOrPhone && <Err>🧨This field is required</Err>}
+                {errors.EmailOrPhone && (t('lang') === 'en' ? <Err>🧨{errors.EmailOrPhone.message}</Err> : <Err>🧨 حدالقل طول ایمیل یا شماره تماس 4 کاراکتر است</Err>)}
 
                 <FormItem
                     register={registerMessage}
                     label={t('form_3')} type="textarea" icon="/images/message.svg" />
-                {errors.Message && <Err>🧨This field is required</Err>}
+                {errors.Message && (t('lang') === 'en' ? <Err>🧨{errors.Message.message}</Err> : <Err>🧨 فیلد متن پیام نباید خالی باشد</Err>)}
 
 
 

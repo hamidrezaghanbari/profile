@@ -8,6 +8,7 @@ const PageWrapper = styled.div`
    display: flex;
    align-items: center;
    justify-content: center;
+   overflow: auto;
 `
 
 export const MainSec = styled.div`
@@ -18,8 +19,18 @@ export const MainSec = styled.div`
    position: relative;
 
    // ** style for desktop
-   height: 85vh;
+   min-height: 85vh;
    width: 70vw;
+   overflow: auto;
+
+   @media only screen and (max-width: 1300px) {
+      width: 95vw;
+      min-height: 90vh;
+   }
+
+   @media only screen and (max-width: 720px) {
+      flex-direction: column;
+   }
 `
 
 export const ChangeLang = styled.div`
@@ -37,6 +48,14 @@ export const ChangeLang = styled.div`
    padding: 5px;
    background-color: var(--primary-color);
    border-radius: 5px;
+
+   @media only screen and (max-width: 720px) {
+      transform: rotate(90deg);
+      transition: none;
+      animation: none;
+      right: 1%;
+      top: 50px;
+   }
 `
 
 export const Lang = styled.div`
@@ -57,6 +76,10 @@ export const Lang = styled.div`
    &:hover {
       cursor: pointer;
       border: 1px solid var(--secondary-color);
+   }
+
+   @media only screen and (max-width: 720px) {
+      transform: rotate(-90deg);
    }
 `
 

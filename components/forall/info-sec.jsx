@@ -18,7 +18,6 @@ const InfoSec = () => {
             </ImageWrapper>
 
             <Name>
-                {/* Hamidreza ghanbari */}
                 {t('name')}
             </Name>
             <Job>
@@ -30,19 +29,16 @@ const InfoSec = () => {
             <NavSec>
                 <Link href="/" locale={router.locale}>
                     <NavItem active={router.asPath === '/'}>
-                        {/* <NavItem> */}
                         {t('menu_1')}
                     </NavItem>
                 </Link>
                 <Link href="/my-projects" locale={router.locale}>
                     <NavItem active={router.asPath === '/my-projects'}>
-                        {/* <NavItem> */}
                         {t('menu_2')}
                     </NavItem>
                 </Link>
                 <Link href="/contact-me" locale={router.locale}>
                     <NavItem active={router.asPath === '/contact-me'}>
-                        {/* <NavItem> */}
                         {t('menu_3')}
                     </NavItem>
                 </Link>

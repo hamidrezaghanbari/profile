@@ -4,7 +4,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { BodyDesc, BodySecWrapper, Breaker, Skill, Skills, Title } from "../components/widgets/forall/body-sec.widgets"
 
 const IndexPage = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation('common')
 
  
 
@@ -27,14 +27,11 @@ const IndexPage = () => {
       <BodyDesc>
         <div>
           <ul>
-            
             {
               t('index_body_2').split(',').map((experience, index) => {
                 return <li key={index}><b>{experience}</b></li>
               })
             }
-
-
           </ul>
         </div>
       </BodyDesc>
