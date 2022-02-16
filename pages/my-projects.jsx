@@ -7,6 +7,8 @@ import Data from '../public/data/projects.json'
 const MyProjects = () => {
     const { t } = useTranslation('common')
 
+    
+    
     return (
         <BodySecWrapper>
             <Title>
