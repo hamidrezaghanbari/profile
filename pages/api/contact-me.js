@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer'
 // /api/contact-me 
 export default async (req, res) => {
     if (req.method === 'POST') {
-        const { EmailOrPhone, FullName, Message } = req.body
+        const { _replyTo, name, message } = req.body
 
 
         let transporter = nodemailer.createTransport({
@@ -20,9 +20,9 @@ export default async (req, res) => {
             await transporter.sendMail({
                 from: process.env.email_user, // sender address
                 to: process.env.email_to, // list of receivers
-                subject: " شما پیام از سایت شخصی حمیدرضا قنبری دارید", // Subject line
-                text: Message, // plain text body
-                html: `<b>from : ${FullName}</b><br /><b>email or phone : ${EmailOrPhone}</b><br /><p>body : ${Message}</p>`, 
+                subject: " شما پیام از سایت حمیدرضا قنبری دارید", // Subject line
+                text: message, // plain text body
+                html: `<b>from : ${name}</b><br /><b>email : ${_replyTo}</b><br /><p>body : ${message}</p>`, 
             });
 
             res.status(201).json({ message: `Your Message is Successfully send to Hamidreza ghanbari.` })
