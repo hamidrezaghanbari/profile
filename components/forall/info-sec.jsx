@@ -13,7 +13,7 @@ const InfoSec = () => {
         <InfoSecWrapper>
             <ImageWrapper>
                 <ImageBack>
-                    <Image layout="fill" src="/images/hamid.png" alt="hamidreza ghanbari" />
+                    <Image layout="fill" src="/images/hamid.jpg" alt="hamidreza ghanbari" />
                 </ImageBack>
             </ImageWrapper>
 

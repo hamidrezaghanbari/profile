@@ -43,15 +43,18 @@ const ContactMe = () => {
       }
     );
 
-    const responseData = await response.json();
+    console.log(response.status)
 
-    if (!response.ok) {
-      setErrorMessage(responseData.message);
+    if (response.status != 200) {
+      setErrorMessage('error happened on server of mail.to!');
     } else {
-      setSuccess(responseData.message);
+      setSuccess('Thank you!Your Email successfully sent.');
     }
 
     setIsLoading(false);
+    setTimeout(() => {
+      location.href = 'https://mailthis.to/confirm'
+    }, 1500);
   };
 
   const registerName = register("name", {

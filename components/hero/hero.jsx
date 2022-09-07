@@ -5,8 +5,8 @@ const Hero = () => {
     return (
         <section className={classes.hero}>
             <div className={classes.image}>
-                <Image src="/images/site/hamid.png"
-                alt="hamidreza ghanbari"
+                <Image src="/images/site/hamid.jpg"
+                alt="Hamidreza Ghanbari"
                 width={300} height={300} />
             </div>
             <h1>Hi i'm Hamidreza Ghanbari</h1>

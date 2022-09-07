@@ -43,15 +43,15 @@ function MyApp({ Component, pageProps }) {
       <PersistGate loading={null} persistor={persistor}>
 
         <Head>
-          <title>hamidreza ghanbari profile</title>
-          <meta name="description" content="hamidreza gahnbari profile and resume" />
+          <title>Hamidreza Ghanbari profile</title>
+          <meta name="description" content="Hamidreza Ghanbari profile and resume" />
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="viewport"
             content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
           />
-          <meta name="keywords" content="hamidreza ghanbari, nextjs, react, pwa" />
+          <meta name="keywords" content="Hamidreza Ghanbari, nextjs, react, pwa" />
           <meta name="author" content="Hamidreza ghanbari" />
 
           <link rel="manifest" href="/manifest.json" />
