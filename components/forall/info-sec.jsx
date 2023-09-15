@@ -13,16 +13,21 @@ const InfoSec = () => {
         <InfoSecWrapper>
             <ImageWrapper>
                 <ImageBack>
-                    <Image layout="fill" src="/images/hamid.jpg" alt="hamidreza ghanbari" />
+                    <Image layout="fill" src="/images/hamid.jpg" alt="Hamidreza Ghanbari" />
                 </ImageBack>
             </ImageWrapper>
 
             <Name>
                 {t('name')}
             </Name>
+            
             <Job>
-                Frontend(nextjs and react) developer
+                Frontend developer 
             </Job>
+            <Job>
+               #NextJs #ReactJs #Typescript #Javascript 
+            </Job>
+            
 
             <LineBreak />
 
@@ -48,21 +53,21 @@ const InfoSec = () => {
 
             <SocialSec>
                 <SocialItem>
-                    <Image src="/images/email-icon.svg" alt="hamidreza ghanbari email" width={24} height={24} />
+                    <Image src="/images/email-icon.svg" alt="Hamidreza Ghanbari email" width={24} height={24} />
                     <span>hamidrezaghanbari13@gmail.com</span>
                 </SocialItem>
                 <SocialItem>
-                    <Image src="/images/whatsapp.svg" alt="hamidreza ghanbari whatsapp" width={24} height={24} />
+                    <Image src="/images/whatsapp.svg" alt="Hamidreza Ghanbari whatsapp" width={24} height={24} />
                     <span>+98-9385784855</span>
                 </SocialItem>
                 <SocialItem>
-                    <Image src="/images/github-octocat.svg" alt="hamidreza ghanbari github" width={24} height={24} />
+                    <Image src="/images/github-octocat.svg" alt="Hamidreza Ghanbari github" width={24} height={24} />
                     <Link href="http://github.com/hamidrezaghanbari">
                         <a>@hamidrezaghanbari</a>
                     </Link>
                 </SocialItem>
                 <SocialItem>
-                    <Image src="/images/figma.svg" alt="hamidreza ghanbari figma" width={24} height={24} />
+                    <Image src="/images/figma.svg" alt="Hamidreza Ghanbari figma" width={24} height={24} />
                     <Link href="http://figma.com/@hamidghanbari">
                         <a>@hamidghanbari</a>
                     </Link>

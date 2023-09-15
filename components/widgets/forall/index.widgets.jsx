@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 const PageWrapper = styled.div`
-   background-color: #f0f0f0;
+   position: relative;
+   background-color: #c2c2c2;
    width: 100%;
    min-height: 100vh;
 
@@ -9,6 +10,21 @@ const PageWrapper = styled.div`
    align-items: center;
    justify-content: center;
    overflow: auto;
+
+
+   &:before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.4;
+      background-image: url('/images/background_pattern.jpg');
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+   }
 `
 
 export const MainSec = styled.div`

@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }) {
             content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
           />
           <meta name="keywords" content="Hamidreza Ghanbari, nextjs, react, pwa" />
-          <meta name="author" content="Hamidreza ghanbari" />
+          <meta name="author" content="Hamidreza Ghanbari" />
 
           <link rel="manifest" href="/manifest.json" />
           <meta name="theme-color" content="#00FFA2" />

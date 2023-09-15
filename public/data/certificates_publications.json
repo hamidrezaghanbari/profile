@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "src": "/images/certificate_publications/freecodecamp.png",
+      "alt": "Data Structure And Algorithm",
+      "name": "Data Structure And Algorithm",
+      "date_en": "2021Oct",
+      "date_fa": "1399 اسفند",
+      "desc_en": "Data Structure and Algorithm are one of my favorite topic i programming, it was very challenging course with great assessment questions, i learn a lot about Algorithm, Data structure in javascript topics like sorting, Big O, Stack, Queue, Javascript Functions, ....",
+      "desc_fa": "Data Structure and Algorithm are one of my favorite topic i programming, it was very challenging course with great assessment questions, i learn a lot about Algorithm, Data structure in javascript topics like sorting, Big O, Stack, Queue, Javascript Functions, ....",
+      "features": ["FreeCodeCamp Certificate"],
+      "links": [
+        {
+          "name_en": "visit certificate",
+          "name_fa": "مشاهده گواهی نامه",
+          "withIcon": true,
+          "isActive": true,
+          "href": "https://www.freecodecamp.org/certification/hamidrezaghanbari/javascript-algorithms-and-data-structures"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "src": "/images/certificate_publications/meta.png",
+      "alt": "Advanced React",
+      "name": "Advanced React",
+      "date_en": "2023Aug",
+      "date_fa": "1402 شهریور",
+      "desc_en": "Meta is a great company, especially for React developers, in the this Course I learned about React principles and ways to create optimized applications with the help of React, it was so helpful course for me to review react details from scratch to mastery level.",
+      "desc_fa": "Meta is a great company, especially for React developers, in the this Course I learned about React principles and ways to create optimized applications with the help of React, it was so helpful course for me to review react details from scratch to mastery level.",
+      "features": ["Meta Certificate"],
+      "links": [
+        {
+          "name_en": "visit certificate",
+          "name_fa": "مشاهده گواهی نامه",
+          "withIcon": true,
+          "isActive": true,
+          "href": "https://www.coursera.org/account/accomplishments/certificate/2AG8D6DBJKUD"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "src": "/images/certificate_publications/sololearn.png",
+      "alt": "React Redux",
+      "name": "React Redux",
+      "date_en": "2021Feb",
+      "date_fa": "1399 دی",
+      "desc_en": "Managing States is one of the most important of frontend daily tasks.using best tools with proper design pattern helps our application to grow without concern about complexity or refactoring. in this course i learn about redux and setup it for react with design patterns of managing state in large scale reactapplication.",
+      "desc_fa": "Managing States is one of the most important of frontend daily tasks.using best tools with proper design pattern helps our application to grow without concern about complexity or refactoring. in this course i learn about redux and setup it for react with design patterns of managing state in large scale reactapplication.",
+      "features": ["SoloLearn Certificate"],
+      "links": [
+        {
+          "name_en": "visit certificate",
+          "name_fa": "مشاهده گواهی نامه",
+          "withIcon": true,
+          "isActive": true,
+          "href": "https://www.sololearn.com/Certificate/CT-KAJOI5HK/jpg"
+        }
+      ]
+    }
+  ]
+}

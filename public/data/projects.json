@@ -1,69 +1,164 @@
 {
-    "projects": [
+  "projects": [
+    {
+      "id": 1,
+      "src": "/images/projects/upera-web.png",
+      "alt": "Upera Main Application",
+      "name": "Upera Main Application",
+      "date_en": "2022Mar - Now",
+      "date_fa": [1399, 3, 7],
+      "desc_en": "Upera is VoD(Video On Demand)Provider with +200,000 active users.The Main application of Upera consist of variaty of choises for all ages renges of users with difference preferences,  user can find his/her favorite movie easily with smooth experience in transition of sections.As frontend Developer i setup Turborepo monorepo for all our applications in single code base with reusing our logics and components and settings in all applications.",
+      "desc_fa": "Upera is VoD(Video On Demand)Provider with +200,000 active users.The Main application of Upera consist of variaty of choises for all ages renges of users with difference preferences,  user can find his/her favorite movie easily with smooth experience in transition of sections.As frontend Developer i setup Turborepo monorepo for all our applications in single code base with reusing our logics and components and settings in all applications.",
+      "features": [
+        "Monorepo Turborepo",
+        "Next Auth",
+        "SSR",
+        "Google Analyze",
+        "Cypress",
+        "GSAP",
+        "Vite"
+      ],
+      "links": [
         {
-            "id": 1,
-            "src": "/images/projects/pbshmiweb.png",
-            "alt": "pbshmi web application",
-            "name": "pbshmi web",
-            "date_en": [
-                2020,
-                3,
-                7
-            ],
-            "date_fa": [
-                1399,
-                3,
-                7
-            ],
-            "desc_en": "SCADA solution web app. yes scada system also need web app for be alive today.in this app i convert windows app named pbshmi to web app pbshmi web for progress accessibility of pbshmi.in this app i used react and react hook to create better experience with single page application.",
-            "desc_fa": "اسکادا سلوشن وب اپلیکیشن. بله امروزه حتی سیستم های اسکادا نیز نیاز دارند تا به صورت وب اپ درامده تا بتوانند نیاز های مشتری های خود را تامین کنند.من در این پروژه برنامه تحت ویندوز اکادا سیستم را به برنامه تحت وب این اپلیکیشن درباورم . در این اپلیکیشن از ری اکت و هوک های ری اکت برای هرچه بهتر شده تجربه کاربری با برنامه تحت وب استفاده شده است.",
-            "features": [
-                "reactjs",
-                "react hook",
-                "styled-components",
-                "axios"
-            ],
-            "links": []
-        },
-        {
-            "id": 2,
-            "src": "/images/projects/marbine.png",
-            "alt": "online booking Marbine",
-            "name": "Marbine",
-            "date_en": [
-                2021,
-                3,
-                7
-            ],
-            "date_fa": [
-                2021,
-                3,
-                7
-            ],
-            "desc_en": "Online booking Hotels from all over the world and it use the multi hotel booking api.in this app we combine multi hotels api like sun an odalys to prepare very complete system for user.in this app i use figma and next js to create beutifull and very fast and seo friendly application",
-            "desc_fa": "ماربین یک اپلیکیشن تحت وب برای رزور انلاین هتل است که در این سامانه از چندین سامانه هتل داری دیتا گرفته شده و متصل است به صورتی که یک سیستم جامغ تر از چندین سایت هتل داری همچون سان یا اودالیس است.در این اپلیکیشن از نکست جی اس و روبی اسستفاده شده است که بخش فرانت اند و طراحی اپلیکیشن با من انجام شده است.",
-            "features": [
-                "nextjs",
-                "ssr",
-                "useSWR",
-                "figma"
-            ],
-            "links": [
-                {
-                    "name_en": "view figma",
-                    "name_fa": "مشاهده فیگما",
-                    "withIcon": false,
-                    "isActive": false,
-                    "href": "https://www.figma.com/community/file/993485259219113695"
-                },
-                {
-                    "name_en": "view website",
-                    "name_fa": "مشاهده وبسایت",
-                    "withIcon": true,
-                    "isActive": true,
-                    "href": "https://www.sejour.ir"
-                }
-            ]
+          "name_en": "visit website",
+          "name_fa": "مشاهده وبسایت",
+          "withIcon": true,
+          "isActive": true,
+          "href": "https://www.upera.tv"
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "src": "/images/projects/upera-kids.png",
+      "alt": "Upera Kids",
+      "name": "Upera Kids",
+      "date_en": "2022Mar - Now",
+      "date_fa": [1399, 3, 7],
+      "desc_en": "Upera kids is application for our under 18y users, we increase our user experince and user engagement with helps of Gsap and React Motion, I create lots of animations components. By creating kids profile by parents ,they ensure that their children just access to proper content with lots of animations engagement to create amazing time with their parents. Focusing on animations and user experience is my main focus on this project.",
+      "desc_fa": "Upera kids is application for our under 18y users, we increase our user experince and user engagement with helps of Gsap and React Motion, I create lots of animations components. By creating kids profile by parents ,they ensure that their children just access to proper content with lots of animations engagement to create amazing time with their parents. Focusing on animations and user experience is my main focus on this project.",
+      "features": [
+        "Next js",
+        "PWA",
+        "GSAP",
+        "React Testing Library",
+        "Tailwind css",
+        "Animation"
+      ],
+      "links": [
+        {
+          "name_en": "visit website",
+          "name_fa": "مشاهده وبسایت",
+          "withIcon": true,
+          "isActive": true,
+          "href": "https://www.upera.tv/kids"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "src": "/images/projects/upera-dashboard.png",
+      "alt": "Upera Apps Dashboard",
+      "name": "Upera Apps Dashboard",
+      "date_en": "2022Mar - Now",
+      "date_fa": [1399, 3, 7],
+      "desc_en": "Upera Dashboard is a package that connect our mobile, tv, kids, main apps to one place that users can manage thier accounts and payments, As frontend developer i focus on authentication with power of Next auth package to handle user sessions.and create integrated authentication for all apps.",
+      "desc_fa": "Upera Dashboard is a package that connect our mobile, tv, kids, main apps to one place that users can manage thier accounts and payments, As frontend developer i focus on authentication with power of Next auth package to handle user sessions.and create integrated authentication for all apps.",
+      "features": ["React js", "Typescript", "React Query", "Seo", "Sentry"],
+      "links": [
+        {
+          "name_en": "visit website",
+          "name_fa": "مشاهده وبسایت",
+          "withIcon": true,
+          "isActive": true,
+          "href": "https://www.upera.tv/user"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "src": "/images/projects/upera-player.png",
+      "alt": "Upera Player",
+      "name": "Upera Player",
+      "date_en": "2022Mar - Now",
+      "date_fa": [1399, 3, 7],
+      "desc_en": "Upera Player is a package that all applications show their content on it, a custom video Hls Player with custom controling on player with power of hls.js and react-player.As frontend Developer I create cross platforms custom video player with functionality of all player actions.",
+      "desc_fa": "Upera Player is a package that all applications show their content on it, a custom video Hls Player with custom controling on player with power of hls.js and react-player.As frontend Developer I create cross platforms custom video player with functionality of all player actions.",
+      "features": [
+        "React Player",
+        "Hls.js",
+        "React Motion",
+        "Memoization",
+        "Xstate"
+      ],
+      "links": [
+        {
+          "name_en": "visit website",
+          "name_fa": "مشاهده وبسایت",
+          "withIcon": true,
+          "isActive": true,
+          "href": "https://www.upera.tv"
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "src": "/images/projects/utopiops.jpg",
+      "alt": "Utopiops Dashboard",
+      "name": "Utopiops",
+      "date_en": "2021Apr - 2022Feb",
+      "date_fa": [1399, 3, 7],
+      "desc_en": "Build, deploy, host your applications on Utopiops's fully managed platform or on your cloud provider of choice.Utopiops is australian startup for helping mid size companies to leverage devops with elementary knowledge of that.As Frontend Developer I Collaborate with our team to Create user friendly dashboard for our users.",
+      "desc_fa": "Build, deploy, host your applications on Utopiops's fully managed platform or on your cloud provider of choice.Utopiops is australian startup for helping mid size companies to leverage devops with elementary knowledge of that.As Frontend Developer I Collaborate with our team to Create user friendly dashboard for our users.",
+      "features": ["React Js", "React Hooks", "Material Ui", "webpack"],
+      "links": [
+        {
+          "name_en": "visit website",
+          "name_fa": "مشاهده وبسایت",
+          "withIcon": true,
+          "isActive": true,
+          "href": "https://github.com/utopiops"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "src": "/images/projects/pbshmiweb.png",
+      "alt": "Pbshmi web application",
+      "name": "Pbshmi web",
+      "date_en": "2019Nov - 2021Mar",
+      "date_fa": [1399, 3, 7],
+      "desc_en": "SCADA solution web app. yes scada systems are also need web app for be alive today.in this app I create web version of legacy windows app of pbshmi for progress accessibility of our users.in this app i used react and redux to create better experience with single page application.",
+      "desc_fa": "اسکادا سلوشن وب اپلیکیشن. بله امروزه حتی سیستم های اسکادا نیز نیاز دارند تا به صورت وب اپ درامده تا بتوانند نیاز های مشتری های خود را تامین کنند.من در این پروژه برنامه تحت ویندوز اکادا سیستم را به برنامه تحت وب این اپلیکیشن درباورم . در این اپلیکیشن از ری اکت و هوک های ری اکت برای هرچه بهتر شده تجربه کاربری با برنامه تحت وب استفاده شده است.",
+      "features": [
+        "React js",
+        "Styled-Components",
+        "Websocket",
+        "Axios",
+        "Redux Toolkit"
+      ],
+      "links": []
+    },
+    {
+      "id": 7,
+      "src": "/images/projects/marbine.png",
+      "alt": "online booking Marbine",
+      "name": "Marbine",
+      "date_en": "2019Aug - 2019Dec",
+      "date_fa": [2019, 8, 12],
+      "desc_en": "Online booking Hotels from all over the world it use the multi hotel booking APIs.in this app we combine multi hotels API like Sun and Odalys to prepare the complete system for users.in this app, In this project As a Designer, i prepare Figma designs, wire frames for mobile and desktop applications.",
+      "desc_fa": "ماربین یک اپلیکیشن تحت وب برای رزور انلاین هتل است که در این سامانه از چندین سامانه هتل داری دیتا گرفته شده و متصل است به صورتی که یک سیستم جامغ تر از چندین سایت هتل داری همچون سان یا اودالیس است.در این اپلیکیشن از نکست جی اس و روبی اسستفاده شده است که بخش فرانت اند و طراحی اپلیکیشن با من انجام شده است.",
+      "features": ["Figma", "UX", "UI"],
+      "links": [
+        {
+          "name_en": "view figma",
+          "name_fa": "مشاهده فیگما",
+          "withIcon": false,
+          "isActive": true,
+          "href": "https://www.figma.com/file/MmaClHRbtFoiYvRb05wYca/Marbine--wireframe%2C-user-flow-and-site-map-(Community)?type=design&node-id=0-1&mode=design"
+        }
+      ]
+    }
+  ]
 }

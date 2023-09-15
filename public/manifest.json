@@ -1,22 +1,22 @@
 {
-    "short_name": "Hamid ghanbari",
-    "name": "Hamidreza ghanbari Profile",
-    "theme_color": "#006eff",
-    "background_color": "#006eff",
-    "display": "standalone",
-    "scope": "/",
-    "start_url": "./",
-    "icons": [
-        {
-            "src": "favicon.ico",
-            "type": "image/x-icon",
-            "sizes": "48x48 32x32 24x24 12x12",
-            "purpose": "any maskable"
-        },
-        {
-            "src": "512x512.png",
-            "type": "image/png",
-            "sizes": "512x512"
-        }
-    ]
+  "short_name": "Hamid ghanbari",
+  "name": "Hamidreza Ghanbari Profile",
+  "theme_color": "#006eff",
+  "background_color": "#006eff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "48x48 32x32 24x24 12x12",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }

@@ -5,7 +5,7 @@ const Loader = () => {
     return (
         <LoaderWrapper>
             <Name>
-                Hamidreza ghanbari
+                Hamidreza Ghanbari
             </Name>
             <Job>
                 Frontend(nextjs and react) developer

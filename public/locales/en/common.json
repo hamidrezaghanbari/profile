@@ -1,20 +1,20 @@
 {
   "lang": "en",
-  "name": "Hamidreza ghanbari",
+  "name": "Hamidreza Ghanbari",
 
   "menu_1": "About me",
   "menu_2": "My Projects",
-  "menu_3": "Contact me",
+  "menu_3": "Certificates And Publications",
 
   "index_title_1": "About me",
-  "index_body_1": "I am frontend developer(react, nextjs) and designer(figma) with experience building digital products with different technologies. Currently my Stack of technologies has a JavaScript(react and next especially) as main language, I like to develop solutions that meet high quality metrics in terms of performance, accessibility and good practices. I am looking for job opportunities to grow professionally with an innovation team to provide solutions to different problems.  I studied computer engineering at the State University of Qazvin (IKIU), where I participated in several academic events such as study groups and events such as Disel Team.",
+  "index_body_1": "I am a skilled frontend developer and designer with a strong proficiency in technologies such as React, Next.js, and Figma. My passion lies in crafting exceptional digital products by leveraging these cutting-edge technologies.With a focus on delivering outstanding solutions, I consistently strive to meet the highest quality metrics in terms of performance, accessibility, and adherence to best practices. I am now seeking exciting job opportunities with an innovative team that values creativity and problem-solving.",
   "index_title_2": "My Experience",
-  "index_body_2": "4Month at Disel Team, 6Month at pbscontrol.com,Now at utopiops.com",
+  "index_body_2": "Mar2022 - Now  => at upera.tv (Frontend Developer),Apr 2021 - Feb 2022 =>  at utopiops.com (Frontend Developer),Nov 2019 - Mar 2021  =>  at pbscontrol.com (Frontend React Developer),Aug 2019 - Dec 2019 =>  at Disel Team (Figma Designer And Frontend Intern)",
   "index_title_3": "My Skills",
-  "index_body_3": "react,nextjs,ui,figma,git,git flow,Rest Api,Tailwind css, Bootstrap, javascript Es6 and higher, html, css, styled-component,ssr,sass,pwa,hooks,i18next,sass",
+  "index_body_3": "React,NextJs,Monorepo TurboRepo,Gatsby js,Micro Frontend,Pwa,Typescript,Javascript,Redux Saga,Zustand,Xstate,React Testing Library,Cypress,Jest,CI/CD automation tests,Web component,React Query,Tailwind css,I18N,Graphql,Websocket,Leaflet,D3 js,Animation GSAP,Data structure And Algorithm,Html/css,Styled component,Git Flow,Figma",
 
   "my_projects": "My projects",
-  "contact_me": "Contact me",
+  "contact_me": "Certificates And Publications",
 
   "form_1": "Full name",
   "form_2": "Email",

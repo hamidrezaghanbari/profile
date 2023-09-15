@@ -23,9 +23,9 @@ const Card = ({ src, alt, name, date_fa, date_en, desc_fa, desc_en, features, li
                     <CardName>{name}</CardName>
                     {
                         router.locale === 'en' ? (
-                            <CardDate>{`${date_en[0]}-${getMonth(date_en[1])} to ${getMonth(date_en[2])}`}</CardDate>
+                            <CardDate>{typeof date_en === 'string' ? date_en : `${date_en[0]}-${getMonth(date_en[1])} to ${getMonth(date_en[2])}`}</CardDate>
                         ) : (
-                            <CardDate>{`${date_fa[0]}-${getMonth(date_fa[1])} to ${getMonth(date_fa[2])}`}</CardDate>
+                            <CardDate>{typeof date_fa === 'string' ? date_fa : `${date_fa[0]}-${getMonth(date_fa[1])} to ${getMonth(date_fa[2])}`}</CardDate>
                         )
                     }
                 </CardTitle>

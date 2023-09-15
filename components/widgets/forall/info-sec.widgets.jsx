@@ -57,7 +57,6 @@ export const ImageBack = styled.div`
 export const Name = styled.h1`
    font-size: 26px;
 
-   padding: 25px 0 20px 0;
    text-align: center;
    font-family: ${({ theme }) => `${theme.font}_medium`};
 
@@ -70,7 +69,6 @@ export const Job = styled.h2`
    font-size: 16px;
    font-family: ${({ theme }) => `${theme.font}_regular`};
    
-   padding-bottom: 10px;
    text-align: center;
 `
 

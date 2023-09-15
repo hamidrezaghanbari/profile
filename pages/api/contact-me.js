@@ -25,7 +25,7 @@ export default async (req, res) => {
                 html: `<b>from : ${name}</b><br /><b>email : ${_replyTo}</b><br /><p>body : ${message}</p>`, 
             });
 
-            res.status(201).json({ message: `Your Message is Successfully send to Hamidreza ghanbari.` })
+            res.status(201).json({ message: `Your Message is Successfully send to Hamidreza Ghanbari.` })
 
         } catch (err) {
             console.log(err)
