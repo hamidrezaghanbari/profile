@@ -4,7 +4,7 @@
 
   "menu_1": "About me",
   "menu_2": "My Projects",
-  "menu_3": "Certificates And Publications",
+  "menu_3": "Certificates",
 
   "index_title_1": "About me",
   "index_body_1": "I am a skilled frontend developer and designer with a strong proficiency in technologies such as React, Next.js, and Figma. My passion lies in crafting exceptional digital products by leveraging these cutting-edge technologies.With a focus on delivering outstanding solutions, I consistently strive to meet the highest quality metrics in terms of performance, accessibility, and adherence to best practices. I am now seeking exciting job opportunities with an innovative team that values creativity and problem-solving.",
@@ -14,7 +14,7 @@
   "index_body_3": "React,NextJs,Monorepo TurboRepo,Gatsby js,Micro Frontend,Pwa,Typescript,Javascript,Redux Saga,Zustand,Xstate,React Testing Library,Cypress,Jest,CI/CD automation tests,Web component,React Query,Tailwind css,I18N,Graphql,Websocket,Leaflet,D3 js,Animation GSAP,Data structure And Algorithm,Html/css,Styled component,Git Flow,Figma",
 
   "my_projects": "My projects",
-  "contact_me": "Certificates And Publications",
+  "contact_me": "Certificates",
 
   "form_1": "Full name",
   "form_2": "Email",
